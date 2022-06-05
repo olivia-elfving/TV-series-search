@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .App-logo {
@@ -26,6 +27,69 @@
 
 .App-link {
   color: #61dafb;
+}
+
+input {
+  padding: 10px;
+  margin: 40px 0;
+  width: 230px;
+  border: 2px solid #52B788;
+  border-radius: 20px;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+  border: 2px solid #2d6a4f;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 200px;
+  text-align: left;
+}
+
+li {
+  list-style: none;
+  padding: 7px 0;
+}
+
+a {
+  color: #081c15;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #40916C;
+}
+
+h1 {
+  margin: 0 auto;
+  padding: 30px 0 20px 0;
+  width: 400px;
+  border-bottom: 2px solid #40916C;
+}
+
+.summary {
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 550px;
+  line-height: 160%;
+  text-align: left;
+}
+
+.button {
+  background-color: #40916C;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.button:hover {
+  color: #081c15;
 }
 
 @keyframes App-logo-spin {
