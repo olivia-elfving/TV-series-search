@@ -92,6 +92,16 @@ h1 {
   color: #081c15;
 }
 
+@media screen and (max-width: 640px) {
+  h1 {
+    width: 60vw;
+  }
+
+  .summary {
+    width: 80vw;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
